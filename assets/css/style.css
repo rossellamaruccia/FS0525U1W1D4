@@ -7,7 +7,12 @@ body {
 
 header,
 footer {
-  background: rgb(74, 170, 196);
+  background: #24b3b3;
+  background: linear-gradient(
+    180deg,
+    rgba(36, 179, 179, 1) 0%,
+    rgba(0, 83, 184, 1) 100%
+  );
   border: 1px black solid;
   padding: 2em 1em;
   margin: 1.5em;
@@ -59,14 +64,15 @@ strong {
 
 ol {
   list-style-type: decimal;
+  line-height: 2em;
 }
 
 ul {
   list-style-type: disc;
+  line-height: 2em;
 }
 
 li {
-  line-height: 1.5em;
   margin-left: 1.7em;
 }
 
@@ -82,7 +88,6 @@ p {
 }
 
 table {
-  display: block;
   width: 100%;
   text-align: center;
   border-bottom: 2px solid rgba(40, 88, 232, 0.781);
@@ -102,7 +107,6 @@ tbody tr:nth-child(even) {
 }
 
 table caption {
-  display: block;
   font-style: italic;
   font-weight: bold;
   text-align: center;
