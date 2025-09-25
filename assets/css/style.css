@@ -1,0 +1,47 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(../img/sfondo.png);
+    
+}
+
+header,  footer {
+    background: rgb(74, 170, 196);
+    border: 1px black solid;
+    padding: 1.5em;
+    margin: 1.5em;
+    text-align: center;
+}
+
+li{
+    color: rgb(35, 189, 255);
+    text-decoration: underline;
+}
+
+/* HEADER */
+
+nav img {
+    width: 20%;
+}
+
+nav p, nav li {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* MAIN */
+main {
+    background: white;
+    border: 1px black solid;
+    padding: 1.5em;
+    margin: 1.5em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
